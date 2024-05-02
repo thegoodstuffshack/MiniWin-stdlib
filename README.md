@@ -9,4 +9,5 @@
 ### Test
 
 ```make```
-```main.exe```
+
+```./libTester/bin/main.exe```
