@@ -17,8 +17,7 @@ shared:
 	$(CC) -s -shared -o$(BIN_DIR)/$(OBJ_NAME).dll $(OBJS) -Wl,--subsystem,windows -nostdlib -lkernel32
 
 clean:
-	$(RM) try.a
-	$(RM) *.o
+	$(RM) $(BIN_DIR)/*.o
 
 purge:
 	$(RM) $(BIN_DIR)/*
